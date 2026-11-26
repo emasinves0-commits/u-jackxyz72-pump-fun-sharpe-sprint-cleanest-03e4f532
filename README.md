@@ -34,7 +34,8 @@ no network. Two runs produce byte-identical action logs.
 ## Measured results (official grader, dev window)
 
 `grade-local --driver process`, run twice, byte-identical action log and
-result:
+result. Rescue re-run 27 Nov 2026 (identical tree): result `9b9603ba…`,
+action log `a8d7b25d…`, L1 reproduced.
 
 - **Hourly Sharpe 0.209**, net PnL **+2.75 SOL** (return +27.5%), Sortino 3.15
 - 436 fills, 134 coins, 188 round trips, win rate 15.4%, max drawdown 0.061
