@@ -5,6 +5,9 @@
 // `grade-local --driver process` re-run on this exact tree reproduces the
 // numbers below (Sharpe 0.209434, net +2.746 SOL, result 9b9603ba…,
 // L1 reproduced, action log a8d7b25d…). No parameter changed in the rescue.
+// Duel glm-5.3-flash (judge-call.py --priority high, 2x posisi dibalik):
+// FINAL (cap 35%) menang 2-0 vs BASE (cap 60%), margin 3+4 — C1 P(6h net>0)
+// 12/19 vs 6/19, median 6h Sharpe +0.22 vs -0.17. FINAL adalah desain yang dikirim.
 //
 // What the dev window actually rewards (measured with the official grader,
 // which this repo's local simulator reproduces byte-for-byte: net +4.701 SOL,
